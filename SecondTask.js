@@ -99,7 +99,7 @@ class M_Euler {
 
     Display(){
             console.log(` Steps ${this.h} |  Experimental Ye  |       Analitical Yt     | Percentage Error`)
-            document.write(` Steps ${this.h}   |    Experimental Y  |         Analitical Y        |      Percentage Error %` +"<br>")
+            document.write(` Steps ${this.h}   |    Experimental Ye  |         Analitical Yt       |      Percentage Error %` +"<br>")
         for (let i = 0; i < X.length; i++) {            
             console.log(` X = ${X[i]} | Ye = ${Y[i]} | Yt = ${ analiticalY[i]} | Err = ${Err[i]}% `)
             document.write(` X = ${X[i]} | Ye = ${Y[i]} | Yt = ${ analiticalY[i]} | Err = ${Err[i]}%`+"<br>") 
